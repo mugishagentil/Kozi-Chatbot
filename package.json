@@ -1,0 +1,36 @@
+{
+  "name": "kozi-chatbot",
+  "version": "1.0.0",
+  "description": "A modern AI chatbot interface for the KOZI platform with pink/purple design theme",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'No build process needed for static files'",
+    "serve": "python3 -m http.server 3000"
+  },
+  "keywords": [
+    "chatbot",
+    "ai",
+    "assistant",
+    "kozi",
+    "web",
+    "frontend",
+    "javascript"
+  ],
+  "author": "KOZI Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kozi/kozi-chatbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kozi/kozi-chatbot/issues"
+  },
+  "homepage": "https://github.com/kozi/kozi-chatbot#readme"
+}
